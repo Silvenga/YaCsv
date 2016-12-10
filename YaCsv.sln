@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YaCsv", "YaCsv\YaCsv.csproj", "{1D808ACB-4FA8-456F-8613-5E9C9353952C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YaCsv", "src\YaCsv\YaCsv.csproj", "{1D808ACB-4FA8-456F-8613-5E9C9353952C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YaCsv.Tests", "tests\YaCsv.Tests\YaCsv.Tests.csproj", "{76836C61-0B76-44E3-B1C1-2EC4EC8ABA30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1D808ACB-4FA8-456F-8613-5E9C9353952C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D808ACB-4FA8-456F-8613-5E9C9353952C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D808ACB-4FA8-456F-8613-5E9C9353952C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76836C61-0B76-44E3-B1C1-2EC4EC8ABA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76836C61-0B76-44E3-B1C1-2EC4EC8ABA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76836C61-0B76-44E3-B1C1-2EC4EC8ABA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76836C61-0B76-44E3-B1C1-2EC4EC8ABA30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
